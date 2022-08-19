@@ -34,10 +34,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-using-flexbox-YL0RmdnC7P)
+- Live Site URL: [](https://interactiverating.pages.dev/)
 
-## My process
+
 
 ### Built with
 
@@ -50,16 +50,16 @@ Users should be able to:
 
 ### Continued development
 
-This is was my very first javascript project. I learnt the basics of DOM manipution, and the basic 
+This is was my very first javascript project. I learnt the basics of DOM manipulation, and the basic 
 javascript syntax. I'm looking forward to build more javascript projects in the future.
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Drew Adeleye](https://www.youtube.com/channel/UCgfkqQmV5UJYAgY6fZjn70Q)
+- Frontend Mentor - [@Drew-adeleye](https://www.frontendmentor.io/profile/Drew-adeleye)
+- Twitter - [@_Andrewiiii](https://www.twitter.com/_Andrewiiii)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
