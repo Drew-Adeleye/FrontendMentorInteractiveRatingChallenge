@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main {
+    width: min(320px, 90%);
+    padding: 0 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+}
+.main img {
+    display: block;
+    background-color: hsl(214, 20%, 25%);
+    padding: 12px;
+    border-radius: 50%;
+}
+p {
+    color: hsl(217, 12%, 63%);
+}
+.ratings-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ratings-section .ratings {
+    padding: 12px 17px;
+    cursor: pointer;
+    background-color: hsl(214, 20%, 25%);
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+}
+.submit-section button {
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+}
+.ratings-section button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.ratings-section button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+.submit-section button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.submit-section {
+    display: flex;
+    flex-direction: column;
+}
+.main img,
+.main h1,
+.main p,
+.main .ratings-section,
+.main .submit-section{
+    margin: 20px 0;
+}
+.selected {
+    padding: 12px 17px;
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    border: none;
+    color: hsl(0, 0%, 100%);;
+}
+
+.no-display {
+    display: none;
+} 
+
+/*   Thank you css  */
+
+
+.thankyou-container {
+    width: min(320px, 90%);
+    padding: 0 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    min-height: 339px;
+}
+.img-container {
+    display: flex;
+}
+
+.thankyou-container img {
+    margin: auto;
+}
+.thankyou-container h1,
+.thankyou-container p {
+    text-align: center;
+}
+.selected-rating {
+    display: flex;
+    justify-content: center;
+}
+.selected-rating p{
+    background-color: hsl(214, 20%, 25%);
+    color: hsl(25, 97%, 53%); 
+    padding: 5px 7px;   
+    border-radius: 20px;
+}
+.thankyou-container h1,
+.thankyou-container .selected-rating {
+    margin: 15px 0;
+}
+.thankyou-container img {
+    margin-top: 30px;
+}
+.thankyou-container .appreciate {
+    margin-bottom: 20px;
+}
